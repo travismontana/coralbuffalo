@@ -1,4 +1,4 @@
-variable "Organization " {
+variable "Organization" {
   description = "What organization is this for (Infrastructure, Analytics, Enterprise Apps)"
   type = "string"
 }

@@ -5,7 +5,7 @@ output "coralbuffalo_common_tags_output" {
     "Application", "${var.Application}",
     "Environment", "${var.Environment}",
     "SnapshotEnabled", "${var.SnapshotEnabled}",
-    "Version", "${var.Version}",
+    "AppVersion", "${var.AppVersion}",
     "TaggingVersionID", "${var.TaggingVersionID}"
     )
   }"
