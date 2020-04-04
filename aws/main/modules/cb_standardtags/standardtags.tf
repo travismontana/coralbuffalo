@@ -23,7 +23,7 @@ variable "SnapshotEnabled" {
   type = "string"
 }
 
-variable "Version" {
+variable "AppVersion" {
   description = "What version of the application is this for."
   type = "string"
 }

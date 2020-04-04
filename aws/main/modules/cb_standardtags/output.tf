@@ -31,7 +31,7 @@ output "SnapshotEnabled" {
   value = "${var.SnapshotEnabled}"
 }
 
-output "Version" {
+output "AppVersion" {
   value = "${var.Version}"
 }
 
