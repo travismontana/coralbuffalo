@@ -32,7 +32,7 @@ output "SnapshotEnabled" {
 }
 
 output "AppVersion" {
-  value = "${var.Version}"
+  value = "${var.AppVersion}"
 }
 
 output "TaggingVersionID" {
