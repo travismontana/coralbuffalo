@@ -23,4 +23,11 @@ resource "azurerm_storage_account" "cbhomedirs_sa" {
 
 module "cbtagging" {
   source = "git::https://github.com/travismontana/coralbuffalo.git//shared/cbtag"
+  Organization = "Coral Buffalo"
+  Owner = "Bob Bomar"
+  Application = "home dirs"
+  Environment = "production"
+  ShapshotEnabled = "false"
+  AppVersion = "1.0"
+  TaggingVersionID = "1.0"
 }
