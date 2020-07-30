@@ -27,7 +27,7 @@ module "cbtagging" {
   Owner = "Bob Bomar"
   Application = "home dirs"
   Environment = "production"
-  ShapshotEnabled = "false"
+  SnapshotEnabled = "false"
   AppVersion = "1.0"
   TaggingVersionID = "1.0"
 }
