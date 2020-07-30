@@ -6,15 +6,15 @@ provider "azurerm" {
   tenant_id       = file("/home/bob/shell/.azure/tenant_id")
 }
 
-resource "azurerm_resource_group" "cbhomedirs_rg" {
-  name = "cbhomedirs_rg"
+resource "azurerm_resource_group" "cbhomedirsrg" {
+  name = "cbhomedirsrg"
   location = "South Central US"
 }
 
-resource "azurerm_storage_account" "cbhomedirs_sa" {
-  name = "cbhomedirs_sa"
-  resource_group_name = azurerm_resource_group.cbhomedirs_rg.name
-  location = azurerm_resource_group.cbhomedirs_rg.location
+resource "azurerm_storage_account" "cbhomedirssa" {
+  name = "cbhomedirssa"
+  resource_group_name = azurerm_resource_group.cbhomedirsrg.name
+  location = azurerm_resource_group.cbhomedirsrg.location
   account_tier = "Standard"
   account_replication_type = "LRS"
 
